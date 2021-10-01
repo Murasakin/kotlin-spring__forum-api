@@ -12,6 +12,6 @@ data class Resposta (
         @ManyToOne
         val autor: Usuario,
         @ManyToOne
-        val Topico: Topico,
+        val topico: Topico,
         val solucao: Boolean
         )
